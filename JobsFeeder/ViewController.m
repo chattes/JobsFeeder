@@ -17,7 +17,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.Title.text = @"Stack JOBS";
+    self.BtnFetchJobs.layer.cornerRadius = 5;
+    self.BtnFetchJobs.clipsToBounds = YES;
+    
+    
 }
 
+- (IBAction)fetchJobs:(id)sender {
 
+    [self.BtnFetchJobs setTitle:@"Fetching..." forState:UIControlStateNormal];
+
+}
 @end

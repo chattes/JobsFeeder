@@ -10,6 +10,14 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *Title;
+
+- (IBAction)fetchJobs:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UIButton *BtnFetchJobs;
+
+
+
 
 @end
 
