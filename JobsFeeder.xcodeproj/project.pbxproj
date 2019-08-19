@@ -15,6 +15,7 @@
 		213F5CEA2307D69E0056CC04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 213F5CE92307D69E0056CC04 /* main.m */; };
 		213F5CF42307D69E0056CC04 /* JobsFeederTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 213F5CF32307D69E0056CC04 /* JobsFeederTests.m */; };
 		213F5CFF2307D69E0056CC04 /* JobsFeederUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 213F5CFE2307D69E0056CC04 /* JobsFeederUITests.m */; };
+		213F5D13230A63330056CC04 /* JobsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 213F5D11230A63330056CC04 /* JobsDetailViewController.m */; };
 		4378A8F15C09D978327A8E25 /* libPods-JobsFeeder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1ABD888F3180FB5059922D /* libPods-JobsFeeder.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,8 @@
 		213F5CFA2307D69E0056CC04 /* JobsFeederUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobsFeederUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		213F5CFE2307D69E0056CC04 /* JobsFeederUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobsFeederUITests.m; sourceTree = "<group>"; };
 		213F5D002307D69E0056CC04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		213F5D11230A63330056CC04 /* JobsDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JobsDetailViewController.m; path = "/Users/sourav/Development/hackspace/RSS Feeder- IOS/JobsFeeder/JobsFeeder/JobsDetailViewController.m"; sourceTree = "<absolute>"; };
+		213F5D12230A63330056CC04 /* JobsDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JobsDetailViewController.h; path = "/Users/sourav/Development/hackspace/RSS Feeder- IOS/JobsFeeder/JobsFeeder/JobsDetailViewController.h"; sourceTree = "<absolute>"; };
 		4644675B78CBC725D0090E3A /* Pods-JobsFeeder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsFeeder.debug.xcconfig"; path = "Target Support Files/Pods-JobsFeeder/Pods-JobsFeeder.debug.xcconfig"; sourceTree = "<group>"; };
 		4B1ABD888F3180FB5059922D /* libPods-JobsFeeder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JobsFeeder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CA3896B9525DE0A37C20551 /* Pods-JobsFeeder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobsFeeder.release.xcconfig"; path = "Target Support Files/Pods-JobsFeeder/Pods-JobsFeeder.release.xcconfig"; sourceTree = "<group>"; };
@@ -112,6 +115,8 @@
 				213F5CDB2307D69D0056CC04 /* AppDelegate.m */,
 				213F5CDD2307D69D0056CC04 /* ViewController.h */,
 				213F5CDE2307D69D0056CC04 /* ViewController.m */,
+				213F5D12230A63330056CC04 /* JobsDetailViewController.h */,
+				213F5D11230A63330056CC04 /* JobsDetailViewController.m */,
 				213F5CE02307D69D0056CC04 /* Main.storyboard */,
 				213F5CE32307D69E0056CC04 /* Assets.xcassets */,
 				213F5CE52307D69E0056CC04 /* LaunchScreen.storyboard */,
@@ -145,7 +150,6 @@
 				4644675B78CBC725D0090E3A /* Pods-JobsFeeder.debug.xcconfig */,
 				8CA3896B9525DE0A37C20551 /* Pods-JobsFeeder.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -314,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				213F5CDF2307D69D0056CC04 /* ViewController.m in Sources */,
+				213F5D13230A63330056CC04 /* JobsDetailViewController.m in Sources */,
 				213F5CEA2307D69E0056CC04 /* main.m in Sources */,
 				213F5CDC2307D69D0056CC04 /* AppDelegate.m in Sources */,
 			);

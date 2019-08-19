@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/sourav/Development/hackspace/RSS Feeder- IOS/JobsFeeder/JobsFeeder/JobsDetailViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/sourav/Development/hackspace/RSS Feeder- IOS/JobsFeeder/JobsFeeder/JobsDetailViewController.m">
+   </FileRef>
+   <FileRef
       location = "group:JobsFeeder.xcodeproj">
    </FileRef>
    <FileRef

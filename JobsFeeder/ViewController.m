@@ -156,6 +156,11 @@
     
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [self performSegueWithIdentifier:@"JobDetails" sender:self];
+    
+}
+
 
 
 @end
